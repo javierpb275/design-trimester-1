@@ -1,0 +1,30 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: lightgrey;
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgray;
+    font-size: 40pt;
+}
+
+.naranjito {
+  color: orange;
+  background-color: blue;
+}
+
+.matrix {
+  font-family: "Courier New", Courier, monospace;
+  color: greenyellow;
+  background-color: black;
+}
+
+.importante {
+  text-decoration: none;
+}
+
+.importante:hover {
+  background-color: yellow;
+}

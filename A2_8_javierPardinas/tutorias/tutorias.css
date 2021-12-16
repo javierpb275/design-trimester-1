@@ -1,0 +1,187 @@
+/*BODY:*/
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*in general:*/
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/*HEADER / NAVIGATION BAR:*/
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+nav {
+  width: 99%;
+  height: 170px;
+}
+
+.nav-top-options {
+  float: left;
+}
+
+.nav-top-option {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#button-dots {
+  font-weight: 900;
+  font-size: 16px;
+  background-color: white;
+  border: white;
+  cursor: pointer;
+}
+
+.login-container {
+  float: right;
+}
+
+.logo-profile {
+  float: left;
+}
+
+#button-login {
+  margin-top: 5%;
+  background-color: #023778;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+.nav-center {
+  position: absolute;
+  text-align: center;
+  top: 22%;
+  width: 99%;
+}
+
+.nav-bottom-options {
+  position: absolute;
+  margin: 110px 400px 0 600px;
+}
+
+.nav-bottom-option {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  font-weight: 800;
+  font-size: large;
+}
+
+.nav-bottom-option:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*DROPDOWN*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 208px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*-----------------------------------------*/
+
+.bread-crumbs {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  top: 140px;
+}
+
+.bread-crumbs p {
+  display: inline-block;
+}
+
+/*FILTER SECTION:*/
+
+#search-selector {
+  padding: 7px 14px;
+  font-size: 16px;
+}
+
+#search-input {
+  padding: 7px 14px;
+  font-size: 16px;
+}
+
+#search-button {
+  background-color: #023778;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+/*TABLE SECTION:*/
+.table-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  background-color: #023778;
+  color: white;
+  border: 1px solid white;
+  height: 40px;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+  height: 40px;
+}
+
+.my-custom-scrollbar {
+  height: 560px;
+  overflow: auto;
+}
+
+/*FOOTER:*/
+
+footer {
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+  width: 98%;
+}
+
+.footer-option p {
+  display: inline-block;
+}
+
+.footer-option img {
+  display: inline-block;
+}
